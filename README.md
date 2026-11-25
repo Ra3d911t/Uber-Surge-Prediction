@@ -58,7 +58,7 @@ raw data.
 
 ## Key rules
 No leakage: `price` is never a feature. All preprocessing is fitted inside the Pipeline on training data only.
-The split is time-ordered. The test set is used only for the final evaluation at the end of notebook 05, never for selection or tuning. Details are in `CLAUDE.md`.
+The split is time-ordered. The test set is used only for the final evaluation at the end of notebook 05, never for selection or tuning. 
 
 ## GUI (Uber-style)
 `streamlit run app.py` shows a dark map of Boston with the 12 pickup/drop-off areas, the route, a surge halo
