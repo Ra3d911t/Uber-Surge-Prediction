@@ -1,0 +1,3 @@
+Condition,P(surge | previous did not surge),P(surge | previous surged)
+"previous ride, same pickup area",0.0407,0.4451
+"previous ride, same pickup area and product",0.0662,0.0969
