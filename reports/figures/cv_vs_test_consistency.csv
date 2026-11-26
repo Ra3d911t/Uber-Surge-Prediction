@@ -1,4 +1,0 @@
-,RMSE,RMSE std,R2,Baseline RMSE
-CV on 30k training sample,0.131683,0.006589,0.029077,0.133655
-CV on full training set (245k),0.132629,0.002574,0.036676,
-"Test set (notebook 05, final evaluation)",0.135238,,0.043037,0.138251

@@ -1,6 +1,0 @@
-Type,Model,Before RMSE,After RMSE,After RMSE std,After R2,Mean fit time (s),Best Parameters
-classic (lecture 4),Random Forest,0.143548,0.131683,0.006589,0.029077,15.090226,"{""max_depth"": 12, ""min_samples_leaf"": 200, ""n_estimators"": 100}"
-classic (lecture 4),Decision Tree,0.214639,0.131947,0.006646,0.025208,0.468386,"{""max_depth"": 8, ""min_samples_leaf"": 500}"
-newer version (boosting),HistGradientBoosting (bonus),0.13413,0.131805,0.006549,0.02725,2.041784,"{""learning_rate"": 0.03, ""max_depth"": 3, ""max_iter"": 200, ""min_samples_leaf"": 200}"
-newer version (boosting),XGBoost (bonus),0.153066,0.131893,0.006485,0.025914,1.533786,"{""learning_rate"": 0.03, ""max_depth"": 3, ""min_child_weight"": 50, ""n_estimators"": 200}"
-newer version (boosting),LightGBM (bonus),0.134013,0.132004,0.006634,0.024372,1.212364,"{""learning_rate"": 0.03, ""min_child_samples"": 200, ""n_estimators"": 200, ""num_leaves"": 15}"
