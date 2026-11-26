@@ -1,0 +1,14 @@
+Model,Course group,After RMSE,After RMSE std,After R2,Mean fit time (s),Mean fold diff vs Random Forest,Folds better than Random Forest,Gap to best / std of best,Statistically tied with best (gap < 1 std)
+Random Forest,lecture,0.131683,0.006589,0.029077,15.090226,0.0,0,0.0,True
+HistGradientBoosting (bonus),newer,0.131805,0.006549,0.02725,2.041784,0.000122,2,0.018559,True
+XGBoost (bonus),newer,0.131893,0.006485,0.025914,1.533786,0.00021,2,0.031819,True
+Decision Tree,lecture,0.131947,0.006646,0.025208,0.468386,0.000264,1,0.040044,True
+LightGBM (bonus),newer,0.132004,0.006634,0.024372,1.212364,0.000321,1,0.048667,True
+Lasso,extra,0.132117,0.006524,0.022613,0.409094,0.000434,0,0.065887,True
+Linear Regression (Gradient Descent),lecture,0.132121,0.00653,0.022566,1.047516,0.000438,0,0.06642,True
+Ridge,extra,0.132864,0.00772,0.012194,0.297225,0.001181,0,0.179237,True
+KNN,extra,0.133145,0.006621,0.007362,0.267753,0.001462,0,0.221879,True
+ANN (MLP),lecture,0.133661,0.00653,-0.000408,6.639584,0.001978,0,0.300212,True
+SVR,lecture,0.135441,0.007004,-0.026963,23.438294,0.003758,0,0.570415,True
+Linear Regression,lecture,0.137779,0.016782,-0.063032,0.38665,0.006096,0,0.925252,True
+Polynomial Regression (deg 2),extra,0.159947,0.05787,-0.533585,3.262221,0.028264,0,4.289681,False
